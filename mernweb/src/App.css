@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding: 0;
+}
+#home{ 
+  background-image: url(https://www.revv.co.in/blogs/wp-content/uploads/2020/05/ISKCON-Temple-Mayapur.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  margin:0;
+  padding: 0;
+
+
+  
+}
+#about{
+  background-color: rgb(247, 240, 240);
+  background: linear-gradient(90deg, rgb(247, 240, 240) 50%, rgb(192, 196, 196) 100%);
+  margin:0;
+  padding: 0;
+}
+
+#contact{
+  background-color: rgb(247, 240, 240);
+  background: linear-gradient(90deg, rgb(247, 240, 240) 50%, rgb(192, 196, 196) 100%);
+  margin:0;
+  padding: 0;
+}
+
+
+.login-page{
+  background-color: rgb(247, 240, 244);
+  background: linear-gradient(90deg, rgb(247, 240, 240) 50%, rgb(192, 196, 196) 100%);
+  margin:0;
+  padding: 0;
+}
+
+.navbar{
+  background: rgb(6, 16, 27);
+  background: linear-gradient(90deg, rgb(6, 14, 22) 90%, rgb(118, 120, 120) 100%);
+}
+
+
+.slider{
+  background-image: url(img8.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  animation: slide 30s infinite;
+}
+@keyframes slide{
+  25%{
+      background-image: url(img11.jpg);
+  }
+  50%{
+      background-image: url(img3.jpg);
+  }
+  75%{
+      background-image: url(img10.jpg);
+  }
+  100%{
+      background-image: url(img1.jpg);
+  }
+}
+.about-us{
+  color:rgb(248, 222, 94);
+}
+.about-us-para{
+  color:orange;
+}
+
+.form{
+  background: rgb(239, 140, 209);
+  background: linear-gradient(90deg, rgb(219, 94, 176) 30%, rgb(166, 56, 127) 100%);
+}
+
+.card{
+  transition: all 0.5s ease;
+}
+
+
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
